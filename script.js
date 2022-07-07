@@ -21,10 +21,10 @@ var color="black"
     container.appendChild(square)
 
     square.addEventListener("mouseover",mouseOver)
-
-}
+    square.className=("glow")
+    
  }
-
+ }
 // Default size//
  createGrid(16)
 // Function to adjust the size of divs via the slider //
