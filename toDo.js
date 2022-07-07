@@ -1,29 +1,38 @@
 /* toDo in HTML */
 
-// DONE!! add a clear button
-//DONE!! add a slider for pixel size
+
 //////////////////////////////
 
 /* toDo in CSS */
-// add background color to main screen
-// color buttons and text
-//resize buttons
-// arrange buttons
-// color and resize slider
+// Add plaid effect to pixel-size text
+// color Clear button
+// Change Direction of slider (bigger pixel to the right)
+// div  rainbow sparkle when selecting rainbow
 ///////////////////////////////
 
 /* toDo in Javascript */
+// Fix shader functiom
 
+/*//////////////////////////////*/
+
+/*  Done HTML */
+// DONE!! add a clear button
+//DONE!! add a slider for pixel size
+//DONE!! add shader
+
+/*////////////////////////////////*/
+/* Done CSS */
+//DONE!! arrange buttons
+//DONE  add background color to main screen
+/*////////////////////////////*/
+/*Done JS */
+///// DONE!! Set Event Target to change colors on button click?????
 // DONE !!! make newDiv invisible !!!
 // DONE!! add a clear color function
 // DONE!! Fit newDiv to div "container"
 //DONE!! align container as a square
-
 // dynamically resize container to fit content
-// Change color of h1 based on color picker
-// add a color picker function
-// add a rainbow color funtion
-// User selects size of etch a sketch function
-// add a function connected to pixel size slider
-
+//Done!! add a color picker function
+// DONE!! add a rainbow color funtion
+//DONE!! User selects size of etch a sketch function
 

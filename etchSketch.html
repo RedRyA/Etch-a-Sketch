@@ -10,25 +10,30 @@
   <title>Etch-A-Sketch</title>
  
 </head>
-<h1>This is an sketch a etch</h1>
-
+<div class="text-effect">
+<h1 class="neon" data-text="Etch-A-Sketch" contenteditable>Etch-A-Sketch</h1>
+<div class = "gradient"></div>
+<div class="spotlight"></div>
+</div>
 <body>
 
     <div class ="buttons">
 
-        <input type="color" class="chooseColor" >
-        <button class="rainbow">Rainbow</button>
-        <button class="eraser">Eraser</button>
-
+        <input class="colorChange"  onchange="changeColor(value)"  type="color" >
+        <button id="rainbow" onclick="changeColor('rainbow')">Rainbow </button>
+        <button id="eraser" class="color-choice" onclick="changeColor('white')">Eraser</button>
+        <button class ="clearScreen" onclick="clearAll()">Clear Screen</button>
     </div>
 
-
+<div class ="container-wrapper">
     <div class ="container"></div>
-
-<div class="slideContainer"> Pixel Size
-    <input type='range' min='1' max='10' value='1' class="slide"
 </div>
-<button class ="clearScreen">Clear Screen</button>
+<div class="bottom"> 
+ <div class="pixel-size-text" >Pixel Size </div>
+ <input type='range' min='4'max='100' value='16' class="slider">
+</div>
+
+
 
     <script src="etchJS.js"></script> 
   
